@@ -2,7 +2,7 @@ num1 = int(input("Enter First Number: "))
 num2 = int(input("Enter Second Number: "))
 
 print("Saskaitīt, atņemt, dalīt, vai reizināt?")
-ch = input("Enter any of these char for specific operation +,-,*,/: ")
+ch = input("Enter any of these for  operation +,-,*,/: ")
 
 result = 0
 if ch == '+':
@@ -16,4 +16,4 @@ elif ch == '/':
 else:
     print("Input character is not recognized!")
 
-print(num1, ch , num2, ":", result)
+print(num1, ch , num2, "=", result)
